@@ -1,40 +1,39 @@
 module Generategem
     
     require 'colorize'
-    puts 'GenerateGem'.red.bold
-    puts 'your GemSpec builder!'.bold
+    puts "GenerateGem\n".red.bold + "your GemSpec builder!\n".bold
     
-    print 'Name: '
+    print 'Name'.cyan.bold + ": "
     name = gets.strip
     
-    print 'version: '
+    print 'version'.cyan.bold + ": "
     version = gets.strip
     
-    print 'date: '
+    print 'date'.cyan.bold + ": "
     date = gets.strip
     
-    print 'summary: '
+    print 'summary'.cyan.bold + ": "
     summary = gets.strip
     
-    print 'description: '
+    print 'description'.cyan.bold + ": "
     description = gets.strip
     
-    print 'author(s): '
+    print 'author(s)'.cyan.bold + ": "
     authors = gets.strip.split(',')
     
-    print 'email: '
+    print 'email'.cyan.bold + ": "
     email = gets.strip
     
-    print 'files: '
+    print 'files'.cyan.bold + ": "
     files = gets.strip.split(',')
     
-    print 'homepage: '
+    print 'homepage'.cyan.bold + ": "
     homepage = gets.strip
     
-    print 'license: '
+    print 'license'.cyan.bold + ": "
     license = gets.strip
     
-    print 'executables: '
+    print 'executables'.cyan.bold + ": "
     executables = gets.strip.split(',')
     
     
